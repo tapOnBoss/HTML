@@ -1,0 +1,18 @@
+ono nuotraukoms, fono spalvai ar  panašiai.
+Pagrindindinės savybės:
+
+    background-color -- bet kuriam HTML elementui nurodo jo fono spalvą
+
+    background-image -- nurodo vaizdą, kurį reikia naudoti kaip elemento foną
+
+    background-repeat -- pagal numatytuosius nustatymus fono paveikslėlio ypatybė pakartoja vaizdą tiek horizontaliai, tiek vertikaliai
+
+    background-attachment -- nurodo, ar fono paveikslėlis turėtų slinkti (scroll), ar būti fiksuotas (fixed)
+
+    background-position -- ypatybė naudojama nurodyti fono paveikslėlio padėtį
+
+    background-size -- nurodo paveikslėlių dydį tėvinaime elemente.
+
+    portals of information about background in css
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/background

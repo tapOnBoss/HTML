@@ -1,0 +1,23 @@
+DATA ABOUT DATA IN HEAD OF HTML IS META DATA OR JUST META.
+
+meta žymos nusako puslapio koduotę,
+ puslapio aprašymą, 
+ raktinius žodžius 
+ (naudojama paieškos varikliams, pvz. Google),
+
+ dokumento autoriui ir peržiūros (angl. viewport) srities parametrams nurodyti. 
+ Metaduomenys puslapyje nėra rodomi, bet juos naudoja naršyklės ar paieškos sistemos.
+ 
+ More meta keywords is more recognized by search engines and goes to top of browsing.
+ <meta name="keywords" content="CodeAcademy, Learning, Programming">
+
+ meta portals of information
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+
+ HTML TAGS & DESCRIPTION`s portal`s
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+https://www.w3schools.com/tags/default.asp
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element

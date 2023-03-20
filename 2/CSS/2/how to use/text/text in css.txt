@@ -1,0 +1,56 @@
+Teksto formatavimo savybės
+
+CSS teksto formatavimo savybės naudojamos tekstinių elementų stiliui apibrėžti.
+
+    color -- naudojamas nustatyti teksto spalvą
+
+    text-align -- naudojamas horizontaliam teksto lygiavimui nustatyti
+
+    vertical-align -- naudojamas vertikaliam teksto lygiavimui nustatyti
+
+    text-decoration -- naudojamas dekoracijoms nustatyti ar pašalinti iš teksto
+
+    text-transform -- naudojamas tekste nurodyti didžiąsias ir mažąsias raides
+
+    text-indent -- naudojamas nurodyti pirmosios teksto eilutės įtrauką
+
+    letter-spacing -- naudojamas nurodant tarpą tarp simbolių tekste
+
+    line-height -- naudojamas nurodant tarpą tarp eilučių
+
+    word-spacing -- naudojamas tarpui tarp žodžių tekste nurodyti
+
+    white-space -- nurodo, kaip elgiamasi su tarpu elemento viduje
+
+    text-shadow -- prideda šešėlį prie teksto
+
+    linkas= https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals
+
+    Šriftai
+    
+    Taip pat, dažnai su teksto formatavimu naudojami ir įvairūs šriftai bei susijusios savybės, kurios apibrėžia šriftų šeimą, paryškinimą, dydį ir teksto stilių.
+    
+     
+    
+    CSS yra dviejų tipų šriftų šeimos pavadinimai:
+    
+        bendroji šeima (generic family) – panašios išvaizdos šriftų šeimų grupė (pvz., „Serif“ ar „Monospace“);
+    
+        šriftų šeima (font family) – konkreti šriftų šeima (pvz., „Times New Roman“ ar „Arial“).
+
+
+Teksto šriftų šeima (angl. font family) nustatoma su font-family savybe. Dažniausiai, font-family turėtų būti nurodyti keli šriftų pavadinimai, kaip „atsarginiai” variantai. Jei naršyklė nepalaiko pirmojo šrifto, ji bando kitą šriftą ir t.t. Visada pradėkite nuo norimo šrifto ir tik vėliau naudotike bendrinę šeimą, kad naršyklė leistų pasirinkti panašų šriftą bendrojoje šeimoje, tik tuo atveju jeigu nėra kitų šriftų. Pvz.: font-family: "Times New Roman", Times, serif;
+
+Kaip ir kalbėjome paskaitos metu, rekomenduojama naudoti Google fonts arba tuos šriftus, kuriuos palaiko dauguma naršyklių.
+
+ 
+
+Kitos tekstų šriftų savybės:
+
+    font-style -- naudojamas kursyviniam tekstui nurodyti
+
+    font-weight -- nurodo šrifto svorį
+
+    font-variant -- nurodo, ar tekstas turi būti rodomas mažomis raidėmis
+
+    font-size -- nurodo teksto dydį

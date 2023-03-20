@@ -1,0 +1,14 @@
+DEBUGING BROWSERS USING
+DEVELOPER TOOLS or Web DEVELOPER Tools
+
+chrome
+https://developer.chrome.com/docs/devtools/
+
+safari
+https://developer.apple.com/safari/tools/
+
+i would love to use firefox instead cuz chrome has way to many trackers and complicated settings with low security measures
+firefox has high security, fast searching in all search engines, fast response to AI generators.
+Understands a lot of programing languages.
+Good for game dev, web dev, visual dev, fullstack dev, devops, frontend dev, backend dev.
+Would also use custom made search engines for privacy measures and security.

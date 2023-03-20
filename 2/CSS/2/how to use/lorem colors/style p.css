@@ -1,0 +1,61 @@
+/* just some extra styles */
+
+* {
+	margin: 0;
+	color: white;
+}
+
+body {
+	background: #69699e;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: -apple-system, system-ui, sans-serif;
+    max-height: 2000px;
+}
+
+div{
+	padding: 75px 49px;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.container {
+	text-align: center;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 33px;
+	border-radius: 12px;
+	margin-bottom: 33px;
+}
+
+title{
+	border: 0;
+	background: rgba(255, 255, 255, 0.2);
+	margin: 10px;
+	height: 1px;
+}
+body:hover{
+    background-color: black;
+}
+
+p:hover::before{color: rgb(0, 0, 0);}
+p:hover::after{color: rgb(255, 255, 255)}
+p:nth-child(1){color: black; background-color: whitesmoke;}
+p:nth-child(1):hover{color: green; background-color: aqua;}
+p:nth-child(2){ color: rgb(170, 255, 0); background-color: rgba(177, 0, 177, 0.462);}
+p:nth-child(2):hover{color: purple; background-color: yellowgreen;}
+p:nth-child(3){ color: white; background-color: black;}
+p:nth-child(3):hover{color: black; background-color: white;}
+p:nth-child(){
+    font-style: italic;
+}

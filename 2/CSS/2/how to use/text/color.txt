@@ -1,0 +1,16 @@
+Spalvos CSS nurodomos naudojant iš anksto nustatytus spalvų pavadinimus arba RGB, HEX, HSL, RGBA, HSLA reikšmes.
+
+    CSS spalvų pavadinimai – CSS spalvą galima nurodyti naudojant iš anksto nustatytą spalvų pavadinimą (pvz.: red, orange, green ir pan.)
+
+    CSS RGB spalvos – CSS spalva gali būti nurodyta kaip RGB reikšmė, naudojant šią formulę: rgb (red, green, blue) arba rgba (red, green, blue, alpha)
+
+    CSS HEX vertė – CSS spalvą galima nurodyti naudojant šešioliktainę reikšmę formoje: #rrggbb (kur rr (raudona), gg (žalia) ir bb (mėlyna) yra šešioliktainės vertės tarp 00 ir ff)
+
+    CSS HSL vertė CSS spalvą galima nurodyti naudojant atspalvį, sodrumą ir šviesumą (HSL), pateikiant tokią formą: hsl (hue, saturation, lightness).
+
+
+portals of information about coloring in WebPages
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+    https://www.w3schools.com/css/css_colors.asp
