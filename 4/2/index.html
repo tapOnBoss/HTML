@@ -1,0 +1,32 @@
+<!-- Cascade
+
+Be paveldėjimo, kitas žingsnis norint išsiaiškinti, kodėl HTML elementas atsivaizduoja taip kaip atsivaizduoja, reikia suprasti, ką reiškia cascading. Paveldėjimas buvo apie stilius, kurie nėra uždėti tiesiogiai HTML tagui, bet paveldimi iš tėvinių elementų. Tuo tarpu cascading, paaiškina kaip naršyklė nusprendžia kokius CSS stilius taikyti, kai jie yra uždėti tiesiogiai konkrečiam tagui.
+
+Pvz. kaip ir kodėl naršyklė nusprendžia, kad <h1> teksto spalva yra seagreen, o ne blue. -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+        <link rel="stylesheet" href="./classVSid.css">
+    </head>
+    <body style="background-color: greenyellow;"><div style="max-width: 600px;margin: 150px 900px;border: 15px Blue ridge;background-color: azure;">
+        
+            <h1 style="color: blue; color: seagreen;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vitae non laborum sint soluta quaerat nulla repellat hic vel sit quis quibusdam dolorum ipsum animi consequuntur quo accusantium possimus commodi?
+            </h1> Spalva Perraso kai aprasomas tas pats elementas ir panaudojamas toks pats stilius, bet kitas stilizavimo efektas
+        <p style="color: blue;">Pavyzdziui spalva melyna</p>
+        <p style="color: seagreen;">Toks pats elementas tik spalva seagreen</p>
+        <p style="color: seagreen;color: blue;">Taciau abu parametrai pakeicia i paskutini pasirinkima</p>
+    </div>
+    <div style="max-width: 600px;margin: -550px 200px; border: green dotted 20px;text-align: center;background-color: rgb(245, 241, 186);">
+        id visada laimi pries class nes indexas yra didesnis ir svarbesnis
+        <p>Paimkime isivaizduojama sali ir miesta</p>
+        <p class="atenai">Atenai tai miestas</p>
+        <p id="graikia1">Graikia tai salis kuri turi savo miestus</p>
+        <p class="atenai" id="graikia">atenai yra graikios svarbus miestas taciau graikia daug svarbesne</p>
+    </div>
+    </body >
+    </html>

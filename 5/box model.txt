@@ -1,0 +1,10 @@
+Kiekvienas HTML elementas paprasčiausiai yra dėžutė, o dėžutės modelis naudojamas elemento matmenims ir struktūrai apibūdinti. 
+Kiekvienas langelis, užimantis vietą jūsų puslapyje, turi tokias savybes kaip:
+
+    Content (turinys) – tai gali būti tekstas arba nuotraukos.
+
+    Padding (užpildas) – erdvė aplink content.
+
+    Border (kraštinė) – ištisinė linija, esanti už padding.
+
+    Margin (paraštė) – erdvė aplink border išorę.

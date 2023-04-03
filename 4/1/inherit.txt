@@ -1,0 +1,28 @@
+Inherit
+https://developer.mozilla.org/en-US/docs/Web/CSS/inherit 
+Inheritance is always from the parent element in the document tree, even when the parent element is not the containing block.
+
+/* Make second-level headers green */
+h2 {
+  color: green;
+}
+
+/* Leave those in the sidebar alone so they use their parent's color */
+#sidebar h2 {
+  color: inherit;
+}
+
+so color would be green for #sidebar h2
+
+div#current {
+  color: blue;
+}
+But this block element would be blue
+
+
+    Inheritance
+    Use the initial keyword to set a property to its ' initial ' value.
+    Use the ' revert '  keyword to reset a property to the value established by the user-agent stylesheet (or by user styles, if any exist).
+    Use the ' revert-layer ' keyword to reset a property to the value established in a previous cascade layer.
+    Use the ' unset ' keyword to set a property to its inherited value if it inherits or to its initial value if not.
+    The ' all ' property lets you reset all properties to their initial, inherited, reverted, or unset state at once.

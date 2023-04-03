@@ -1,0 +1,65 @@
+unset
+
+The unset CSS keyword resets a property to its inherited value if the property naturally inherits from its parent, and to its initial value if not. In other words, it behaves like the inherit keyword in the first case, when the property is an inherited property, and like the initial keyword in the second case, when the property is a non-inherited property.
+
+unset can be applied to any CSS property, including the CSS shorthand property all.
+Examples
+Color
+
+color is an inherited property.
+HTML
+
+<p>This text is red.</p>
+<div class="foo">
+  <p>This text is also red.</p>
+</div>
+<div class="bar">
+  <p>This text is green (default inherited value).</p>
+</div>
+
+CSS
+
+.foo {
+  color: blue;
+}
+
+.bar {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+.bar p {
+  color: unset;
+}
+
+
+
+Border
+
+border is a non-inherited property.
+HTML
+
+<p>This text has a red border.</p>
+<div>
+  <p>This text has a red border.</p>
+</div>
+<div class="bar">
+  <p>This text has a black border (initial default, not inherited).</p>
+</div>
+
+CSS
+
+div {
+  border: 1px solid green;
+}
+
+p {
+  border: 1px solid red;
+}
+
+.bar p {
+  border-color: unset;
+}

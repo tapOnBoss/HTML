@@ -1,0 +1,12 @@
+body{padding-right: 28.9%;}
+.allholder{background-color:gray;max-width: 100%;min-width: 100%;padding: 0% 0% 0.01% 0%; margin: 0px 0px 0px 350px; }
+.heading {background-color: green; max-width: 100%;}
+.logo{max-width: 75%;min-width: 50%;padding: 0% 1% 0% 35.9%; margin: auto;background-color: #fff;}
+.header{background-color: green;}
+.heading li{float: left;}
+.header a {overflow: auto;text-align: center;padding-left: 20.5%;color: burlywood;font-size: large;text-transform: uppercase;}
+nav {background: rgb(11, 104, 11);padding: 20px 0.1px;}
+img{height: auto;width: 90%;padding-left: 9.901%;}
+#managedS,#managedw {margin-left: 10%;margin-right:10% ;margin-top: 1%; padding-left: 0px;padding: 0px 10px 30px; color: #fff;font-size: 35px;text-transform: capitalize;text-align: left;text}
+p{margin-left: 10%;margin-right:9%;}
+.lightgreen{background-color:lightgreen;max-width: 100%;min-width: 100%;padding: 0% 0% 10% 0%; margin: 0px 0px 0px 0px; }

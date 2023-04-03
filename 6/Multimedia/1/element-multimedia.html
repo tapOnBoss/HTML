@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <link rel="stylesheet" href="./a.css">
+</head>
+<body>
+    <p>Nuotraukos:
+
+        <p>
+            Norėdami svetainėje pridėti paprastą nuotrauką, naudojame elementą img. Tai tuščias elementas, o tai reiškia, kad jame nėra teksto turinio ar uždarymo žymos.
+            
+        </p>
+        <p>
+            žyma reikalauja dvieju atributų:
+            img
+        </p>
+            <p>
+                src - nurodo kelią iki nuotraukos, gali būti ir nuoroda
+                alt - nurodo alternatyvų vaizdo tekstą, jei vaizdas dėl kokių nors priežasčių negali būti rodomas</p>
+            </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Cute-kittens-12929201-1600-1200.jpg?20151209234126" alt="Kitty cute" width="300">
+
+    <p>Vaizdo įrašai
+
+        Norėdami įterpti vaizdo įrašą į HTML, naudokite elementą video. Šio elemento viduje reikia naudoti source elementus, kurie tiksliai nurodys vaizdo įrašo šaltinį (src). Elementas <source> taip pat leidžia nurodyti alternatyvius vaizdo failus, kuriuos naršyklė gali pasirinkti. Naršyklė naudos pirmąjį atpažintą formatą.
+        
+        video elementas turi nemažai įvairiausių atributų. Ne visi jie reikalingi, tačiau visada puiki idėja įtraukti width ir height atributus. Jei height ir width nenustatyti, puslapis gali mirgėti įkeliant vaizdo įrašą (žr. pavyzdį žemiau). Iš pradžių kraunantis vaizdo įrašui grojiklis rodomas mažesnis, o vėliau padėja.
+        </p>
+    <video controls autoplay muted>
+        <source src="./video.mp4">
+    </video>
+</body>
+</html>

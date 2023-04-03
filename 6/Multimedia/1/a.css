@@ -1,0 +1,24 @@
+/* page display */
+body{background-color: silver;
+font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sas-serif;}
+img{max-width:100%;}
+img{max-width: 250px;}
+a{color: #000;text-decoration: none;}
+
+p:hover{text-decoration: underline cornflowerblue;
+    color: rgba(220, 20, 60, 0.705);
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 5%;}
+img:hover{text-decoration: underline cornflowerblue;
+    color: crimson;
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 5%;}
+
+main img,p,body:hover{text-decoration: underline cornflowerblue;
+    color: rgba(220, 20, 60, 0.47);
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 1%;}
+/* hovers */

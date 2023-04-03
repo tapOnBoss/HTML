@@ -1,0 +1,60 @@
+/* page display */
+body{background-color: #ebebeb;
+font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sas-serif;}
+img{max-width:100%;}
+header,section{
+    max-width:600px;
+    margin: 0 auto;
+    background-color:f9f9f9;
+    box-shadow: 1px 1px 1px 1px silver,2px 0px 0px 2px crimson, 3px 3px 3px 3px gold, 4px 4px 4px 4px purple;
+    border-radius: 5px;
+    padding:30px;
+    margin-top: 10px;
+}
+/* page display */
+
+/* headers */
+header{text-align: center;}
+header img{max-width: 250px;}
+header ul{padding: 0;margin: 0;list-style:none;}
+header li{display: inline; margin-right: 20px;}
+header li:last-child{margin-right: 0;}
+header li a{color: #000;text-decoration: none;}
+/* headers */
+
+/* hovers */
+header ul li a:hover{text-decoration: underline cornflowerblue;
+    color: crimson;
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 5%;
+}
+header h1:hover{text-decoration: underline cornflowerblue;
+    color: crimson;
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 5%;}
+img:hover{text-decoration: underline cornflowerblue;
+    color: crimson;
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 5%;}
+
+main img,p:hover{text-decoration: underline cornflowerblue;
+    color: crimson;
+    text-shadow: 3px 3px 3px cornflowerblue;
+    background-color:#000;
+    border-radius: 1%;}
+/* hovers */
+
+h2,h3{text-align: center;}
+#apie p{text-align: justify;}
+.product{margin:10px;padding: 10px;
+text-align: center;font-weight: bold;}
+.product img{height: 150px;width: 150px;object-fit: cover;}
+.product .price-tag{font-weight: normal;}
+.map img{width: 100%;max-height: 400px;object-fit: cover;}
+
+/* footer */
+footer{text-align: center;color: #555;padding: 15px;}
+/* footer */
