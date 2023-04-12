@@ -1,0 +1,14 @@
+.backgrounds{background-color: cornsilk;}
+.black{background-color: #000;color: #fff;}
+.orange{background-color: orange; color: #fff;}
+.white{background-color: #fff;color: #000;}
+.white button{background-color: red; text-decoration: underline whitesmoke;}
+.darkblue{background-color: darkblue;color: whitesmoke;}
+.darkblue th, .darkblue td, .darkblue tr, .darkblue th{border: 2px red solid; text-align: center;}
+.getRight{text-align: right;}
+html{margin: 0;padding: 0.3% 0.9% 0 0.09%;}
+.orange a, li{text-align: right; text-decoration: none; list-style: none; color: #fff; height: 1.5rem;padding-top: 0.5%;padding-right: 1%;}
+.logo img, .copyright{align-content: center;width: auto; max-width: 100%;}
+.logo img{width: 150px;padding-left: 43.3%;}
+.aviva-group, .white, .darkblue h3, table, .contacts{padding-left: 10.3%; padding-right:10.3%;}
+.btn-down, .btn-up{padding-left: 43.3%;border-radius: 50%;}

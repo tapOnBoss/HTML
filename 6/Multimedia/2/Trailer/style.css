@@ -1,0 +1,82 @@
+/* all about sidebar is down here */
+.click{
+    font-size: 30px;
+    cursor:pointer;
+}
+@media screen and (max-height: 450px){
+    .sidenav{
+        padding-top:15px;
+    }.sidenav a
+    {font-size: 16px;}
+}
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav a:hover{
+    color: tomato;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aquamarine;
+    background-color: #000;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x:hidden;
+    transition: 0.5s;
+    padding: 0.1px;
+}
+p span, nav a{
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-shadow: 1px 1px 3px green,1px 1px 3.2px lightgreen,1px 1px 3.4px greenyellow,1px 1px 3.6px lightgoldenrodyellow;
+}
+
+.sidenavlist a {
+    padding-left: 0;
+}
+/* all about sidebar is up here  */
+
+/* all about header is down here */
+.nav{
+    margin-top: -45px;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+}
+.nav a{
+    overflow-x:hidden;
+    transition: 0.4s;
+    word-spacing: 1rem;
+    text-decoration: none;
+}
+/* all about header is up here */
+div.Trailers{background-color: rgb(253, 246, 235);}
+.Trailers h3 span{color: #0000006d;}
+iframe,.Trailers p{padding-left: 20%;}
+.Trailers p{font-weight: 900;font-size: 20px;}
+/* all about content down here */
+hr{color: #00000013;}
+footer{
+    background-color: #000;color: violet;
+    padding-left: 9%;
+    height: 4.7vh;
+}

@@ -1,0 +1,15 @@
+div table, div table td{border: 5px lime ridge;border-end-end-radius: 10%;border-top-left-radius: 35%;background-color: limegreen;}
+div table td {background-color: greenyellow;color: blueviolet;text-shadow: 3px 10px 5px royalblue;}
+div th{font-size: small; text-align: right;}
+div td{text-align: left;border-radius:75%;}
+
+.borders tr, .borders td, .borders table, .borders th{
+    border: 0.009px solid #000;
+    width: 50%;
+    border-collapse: collapse;
+}
+td, th{padding: 1px;}
+span.blue {background-color: blue; color:blue}
+span.Red{background-color: red; color: red;}
+span.green{color: green;background-color: green;}
+th.some{border: 5px red ridge;border-radius: 25%; border-bottom-right-radius: 100%;width: 5%;}

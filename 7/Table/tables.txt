@@ -1,0 +1,3 @@
+Iš tikrųjų daugiau teorijos ir nereikia žinoti, o apie visas šias žymas galite daugiau paskaityti HTML Tables | W3Schools  arba HTML table basics | MDN puslapiuose.
+https://www.w3schools.com/html/html_tables.asp
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
