@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transition-property property</title>
+	<style>
+	form,p {
+		width: 300px;
+		height: 200px;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 2rem;
+	}
+
+	label {
+		width: 30%;
+	}
+
+	input {
+		background-color: default;
+		float: right;
+	}
+
+	input:focus {
+		background-color: lavender;
+	}
+
+	h1, h2 {
+		color: blue;
+        text-shadow: 5px 1px 3px orange, 2px 1.3px 5px purple;
+		text-align: center;
+	}
+
+    a:visited {
+		color: purple;
+	}
+	</style>
+</head>
+<body>
+	<h1>CodeAcademy</h1>
+	<h2>:focus pseudo klasė</h2>
+	<form>
+		<label for="username">Vartotojo vardas:</label>
+		<input type="text" name="username" placeholder="Įveskite vardą" />
+		<br>		
+		<label for="emailid">El. paštas:</label>
+		<input type="email" name="emailid" placeholder="Įveskite e. paštą" />
+		<br>	
+		<label for="Password">Slaptažodis:</label>
+		<input type="password" name="Password" placeholder="Įveskite slaptažodį" />
+	</form>
+
+    <h1>CodeAcademy</h1>
+	<h2>:visited pseudo klasė</h2>
+	<p>
+		<a href="https://solarsystem.nasa.gov/" target="_blank">
+			Mano spalva pasikeis jei aspausite šią nuorodą
+		</a>
+	</p>
+</body>
+</html>				

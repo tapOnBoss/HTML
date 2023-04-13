@@ -1,0 +1,4 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+https://www.w3schools.com/css/css_pseudo_classes.asp
+https://youtu.be/kpXKwDGtjGE
+https://youtu.be/e1KpKBHJOrA
